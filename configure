@@ -63,7 +63,7 @@ for x; do
 	--with-timestamp) WITHOUT_TIMESTAMP= ;;
 	--without-timestamp) WITHOUT_TIMESTAMP=yes ;;
 	--uid-max) UID_MAX=$var ;;
-	--gid-max) UID_MAX=$var ;;
+	--gid-max) GID_MAX=$var ;;
 	--help|-h) usage ;;
 	*) die "Error: unknown option $opt" ;;
 	esac
